@@ -19,9 +19,10 @@ hgroup,
 main,
 nav,
 section,
-summary {
-    display: block;
+summary{
+   display: block;
 }
+
 
 /**
  * Correct `inline-block` display not defined in IE 8/9.
@@ -29,8 +30,8 @@ summary {
 
 audio,
 canvas,
-video {
-    display: inline-block;
+video{
+   display: inline-block;
 }
 
 /**
@@ -39,8 +40,8 @@ video {
  */
 
 audio:not([controls]) {
-    display: none;
-    height: 0;
+	display: none;
+	height: 0;
 }
 
 /**
@@ -61,18 +62,18 @@ audio:not([controls]) {
  *    user zoom.
  */
 
-html {
-    font-family: sans-serif; /* 1 */
-    -webkit-text-size-adjust: 100%; /* 2 */
-    -ms-text-size-adjust: 100%; /* 2 */
+html{
+	font-family: sans-serif; /* 1 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+	-ms-text-size-adjust: 100%; /* 2 */
 }
 
 /**
  * Remove default margin.
  */
 
-body {
-    margin: 0;
+body{
+   margin: 0;
 }
 
 /* ==========================================================================
@@ -83,18 +84,20 @@ body {
  * Address `outline` inconsistency between Chrome and other browsers.
  */
 
-a:focus {
+a:focus{
     outline: thin dotted;
 }
+
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
 
 a:active,
-a:hover {
-    outline: 0;
+a:hover{
+   outline: 0;
 }
+
 
 /* ==========================================================================
    Typography
@@ -105,9 +108,9 @@ a:hover {
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
 
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
+h1{
+   font-size: 2em;
+   margin: 0.67em 0;
 }
 
 /**
@@ -123,35 +126,35 @@ abbr[title] {
  */
 
 b,
-strong {
-    font-weight: bold;
+strong{
+   font-weight: bold;
 }
 
 /**
  * Address styling not present in Safari 5 and Chrome.
  */
 
-dfn {
-    font-style: italic;
+dfn{
+   font-style: italic;
 }
 
 /**
  * Address differences between Firefox and other browsers.
  */
 
-hr {
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    height: 0;
+hr{
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	height: 0;
 }
 
 /**
  * Address styling not present in IE 8/9.
  */
 
-mark {
-    background: #ff0;
-    color: #000;
+mark{
+	background: #ff0;
+	color: #000;
 }
 
 /**
@@ -161,32 +164,32 @@ mark {
 code,
 kbd,
 pre,
-samp {
-    font-family: monospace, serif;
-    font-size: 1em;
+samp{
+	font-family: monospace, serif;
+	font-size: 1em;
 }
 
 /**
  * Improve readability of pre-formatted text in all browsers.
  */
 
-pre {
-    white-space: pre-wrap;
+pre{
+   white-space: pre-wrap;
 }
 
 /**
  * Set consistent quote types.
  */
 
-q {
-    quotes: "\201C" "\201D" "\2018" "\2019";
+q{
+   quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
 /**
  * Address inconsistent and variable font size in all browsers.
  */
 
-small {
+small{
     font-size: 80%;
 }
 
@@ -195,19 +198,19 @@ small {
  */
 
 sub,
-sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
+sup{
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
 }
 
-sup {
-    top: -0.5em;
+sup{
+   top: -0.5em;
 }
 
-sub {
-    bottom: -0.25em;
+sub{
+   bottom: -0.25em;
 }
 
 /* ==========================================================================
@@ -218,8 +221,8 @@ sub {
  * Remove border when inside `a` element in IE 8/9.
  */
 
-img {
-    border: 0;
+img{
+   border: 0;
 }
 
 /**
@@ -227,7 +230,7 @@ img {
  */
 
 svg:not(:root) {
-    overflow: hidden;
+   overflow: hidden;
 }
 
 /* ==========================================================================
@@ -238,8 +241,8 @@ svg:not(:root) {
  * Address margin not present in IE 8/9 and Safari 5.
  */
 
-figure {
-    margin: 0;
+figure{
+   margin: 0;
 }
 
 /* ==========================================================================
@@ -250,10 +253,10 @@ figure {
  * Define consistent border, margin, and padding.
  */
 
-fieldset {
-    border: 1px solid #c0c0c0;
-    margin: 0 2px;
-    padding: 0.35em 0.625em 0.75em;
+fieldset{
+	border: 1px solid #c0c0c0;
+	margin: 0 2px;
+	padding: 0.35em 0.625em 0.75em;
 }
 
 /**
@@ -261,9 +264,9 @@ fieldset {
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
 
-legend {
-    border: 0; /* 1 */
-    padding: 0; /* 2 */
+legend{
+	border: 0; /* 1 */
+	padding: 0; /* 2 */
 }
 
 /**
@@ -275,10 +278,10 @@ legend {
 button,
 input,
 select,
-textarea {
-    font-family: inherit; /* 1 */
-    font-size: 100%; /* 2 */
-    margin: 0; /* 3 */
+textarea{
+	font-family: inherit; /* 1 */
+	font-size: 100%; /* 2 */
+	margin: 0; /* 3 */
 }
 
 /**
@@ -287,8 +290,8 @@ textarea {
  */
 
 button,
-input {
-    line-height: normal;
+input{
+   line-height: normal;
 }
 
 /**
@@ -299,8 +302,8 @@ input {
  */
 
 button,
-select {
-    text-transform: none;
+select{
+   text-transform: none;
 }
 
 /**
@@ -315,8 +318,8 @@ button,
 html input[type="button"], /* 1 */
 input[type="reset"],
 input[type="submit"] {
-    -webkit-appearance: button; /* 2 */
-    cursor: pointer; /* 3 */
+	-webkit-appearance: button; /* 2 */
+	cursor: pointer; /* 3 */
 }
 
 /**
@@ -325,7 +328,7 @@ input[type="submit"] {
 
 button[disabled],
 html input[disabled] {
-    cursor: default;
+   cursor: default;
 }
 
 /**
@@ -335,8 +338,8 @@ html input[disabled] {
 
 input[type="checkbox"],
 input[type="radio"] {
-    box-sizing: border-box; /* 1 */
-    padding: 0; /* 2 */
+	box-sizing: border-box; /* 1 */
+	padding: 0; /* 2 */
 }
 
 /**
@@ -346,10 +349,10 @@ input[type="radio"] {
  */
 
 input[type="search"] {
-    -webkit-appearance: textfield; /* 1 */
-    -moz-box-sizing: content-box;
-    -webkit-box-sizing: content-box; /* 2 */
-    box-sizing: content-box;
+	-webkit-appearance: textfield; /* 1 */
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box; /* 2 */
+	box-sizing: content-box;
 }
 
 /**
@@ -359,7 +362,7 @@ input[type="search"] {
 
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
-    -webkit-appearance: none;
+   -webkit-appearance: none;
 }
 
 /**
@@ -368,8 +371,8 @@ input[type="search"]::-webkit-search-decoration {
 
 button::-moz-focus-inner,
 input::-moz-focus-inner {
-    border: 0;
-    padding: 0;
+	border: 0;
+	padding: 0;
 }
 
 /**
@@ -377,9 +380,9 @@ input::-moz-focus-inner {
  * 2. Improve readability and alignment in all browsers.
  */
 
-textarea {
-    overflow: auto; /* 1 */
-    vertical-align: top; /* 2 */
+textarea{
+	overflow: auto; /* 1 */
+	vertical-align: top; /* 2 */
 }
 
 /* ==========================================================================
@@ -390,7 +393,7 @@ textarea {
  * Remove most spacing between table cells.
  */
 
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
 }
