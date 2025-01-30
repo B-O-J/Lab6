@@ -117,7 +117,7 @@ h1{
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
  */
 
-abbr[title] {
+abbr[title]{
   border-bottom: 1px dotted;
 }
 
