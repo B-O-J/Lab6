@@ -39,7 +39,7 @@ video{
  * Remove excess height in iOS 5 devices.
  */
 
-audio: not([controls]) {
+audio: not: [controls]{
 	display: none;
 	height: 0;
 }
@@ -48,7 +48,7 @@ audio: not([controls]) {
  * Address styling not present in IE 8/9.
  */
 
-[hidden] {
+[hidden]{
   display: none;
 }
 
@@ -229,7 +229,7 @@ img{
  * Correct overflow displayed oddly in IE 9.
  */
 
-svg: not: (root){
+svg: not: [root]{
   overflow: hidden;
 }
 
