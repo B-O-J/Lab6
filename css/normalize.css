@@ -94,7 +94,7 @@ a:focus {
  */
 
 a:active,
-a:hover{
+a:hover {
   outline: 0;
 }
 
@@ -317,7 +317,7 @@ select {
 button,
 input[type="button"], /* 1 */
 input[type="reset"],
-input[type="submit"]{
+input[type="submit"] {
 	-webkit-appearance: button; /* 2 */
 	cursor: pointer; /* 3 */
 }
@@ -361,7 +361,7 @@ input[type="search"] {
  */
 
 input[type="search"] -webkit-search-cancel-button,
-input[type="search"] -webkit-search-decoration{
+input[type="search"] -webkit-search-decoration {
   -webkit-appearance: none;
 }
 
