@@ -23,7 +23,7 @@ h1{
 	color: #E35335;
 }
 
-#header a: #logo1 img{
+#header a#logo1 img{
 	margin-top: 20px;
 	margin-left: 20px;
 	margin-bottom: 20px;
@@ -105,7 +105,7 @@ main-nav ul li{
 	color: #ccc;
 }
 
-#main-nav ul li a: hover{
+#main-nav ul li a:hover{
   background-color: #ccc;
   color: #333;
 }
